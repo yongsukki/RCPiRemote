@@ -30,3 +30,11 @@ Project by www.rasplay.org - Multi-Control-RCCar
 Download RCPiRemote Android App., and connect Raspberrypi
 
 Enjoy!!  
+
+visit our Blog (http://www.rasplay.org), Wiki(http://wiki.rasplay.org)
+
+Specially, ESRC(ESRC:Environmental Scanning RC Car) Project Page
+
+http://wiki.rasplay.org/doku.php?id=community:esrc:hardware
+
+http://wiki.rasplay.org/doku.php?id=community:esrc:software
