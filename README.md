@@ -16,10 +16,12 @@ Project by www.rasplay.org - Multi-Control-RCCar
 
 ### Setup
   * RCPiRemote Clone
+
     ```
     $ git clone https://github.com/rasplay/RCPiRemote.git
     ```
   * run script
+
     ```
     $ sh setup.sh
     ```
