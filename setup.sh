@@ -11,7 +11,7 @@ sudo ./setup.sh
 # Download Server Source
 cd ~
 git clone https://github.com/rasplay/clickpirc.git
-sudo sed -i '/^myscript=*/c\myscript=/home/pi/clickpirc/rc_script_2.py' /etc/webiopi/config
+sudo sed -i '/^#myscript=*/c\myscript=/home/pi/clickpirc/rc_script_2.py' /etc/webiopi/config
 
 # WebIOPi Start
 sudo /etc/init.d/webiopi start
