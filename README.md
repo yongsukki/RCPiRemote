@@ -20,6 +20,7 @@ Project by www.rasplay.org - Multi-Control-RCCar
 
     ```
     $ git clone https://github.com/rasplay/RCPiRemote.git
+    $ cd RCPiRemote
     ```
   * run script
 
