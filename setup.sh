@@ -31,6 +31,6 @@ make clean all
 # Run mjpg-streamer
 echo 'STREAMER_PATH=/home/pi/mjpg-streamer/mjpg-streamer-experimental' >> ~/runmjpgstream.sh
 echo 'export LD_LIBRARY_PATH=$STREAMER_PATH' >> ~/runmjpgstream.sh
-echo '$STREAMER_PATH/mjpg_streamer -i "input_raspicam.so -d 200 -rot 180" -o "output_http.so -w $STREAMER_PATH/www -p 8080" &' >> ~/runmjpgstream.sh
+echo '$STREAMER_PATH/mjpg_streamer -i "input_raspicam.so -d 200 " -o "output_http.so -w $STREAMER_PATH/www -p 8080" &' >> ~/runmjpgstream.sh
 sh ~/runmjpgstream.sh
 
