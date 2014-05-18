@@ -7,6 +7,12 @@ wget http://downloads.sourceforge.net/project/webiopi/WebIOPi-0.7.0.tar.gz
 tar xvf WebIOPi-0.7.0.tar.gz
 cd WebIOPi-0.7.0
 sudo ./setup.sh
+
+# Download Server Source
+cd ~
+git clone https://github.com/rasplay/clickpirc.git
+sudo sed -i '/^myscript=*/c\myscript=/home/pi/clickpirc/rc_script_2.py' /etc/webiopi/config
+
 # WebIOPi Start
 sudo /etc/init.d/webiopi start
 # Auto Start WebIOPi at Raspberrypi startup
